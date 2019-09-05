@@ -5,34 +5,27 @@ body {
 @keyframes FlyOne {
   10% {
     transform: translateX(7vw) translateY(-10vh) rotate(0deg);
-    /* opacity: 1; */
   }
   40% {
     transform: translateX(2vw) translateY(-30vh) rotate(5deg);
-    /* opacity: 0.9; */
   }
   70% {
     transform: translateX(10vw) translateY(-70vh) rotate(-5deg);
-    /* opacity: 0.6; */
   }
   100% {
-    transform: translateX(3vw) translateY(-100vh) rotate(3deg);
-    /* opacity: 0.1; */
+    transform: translateX(3vw) translateY(-120vh) rotate(3deg);
 	}
 }
 
 @keyframes FlyTwo {
   10% {
-    transform: translateX(2vw) translateY(-30vh) rotate(0deg);
-    /* opacity: 1; */
+    transform: translateX(2vw) translateY(-15vh) rotate(0deg);
   }
   40% {
     transform: translateX(10vw) translateY(-60vh) rotate(5deg);
-    /* opacity: 0.9; */
   }
   70% {
     transform: translateX(3vw) translateY(-90vh) rotate(-5deg);
-    /* opacity: 0.6; */
   }
   100% {
     transform: translateX(12vw) translateY(-100vh) rotate(3deg);
@@ -103,7 +96,7 @@ body {
   width: 3vw;
   bottom: -8vw;
   background: linear-gradient(#92090e, #ea3d2d, #fbf885);
-  animation: FlyOne 15s linear infinite;
+  animation: FlyOne 22s linear infinite;
 }
 
 .latern-left {
