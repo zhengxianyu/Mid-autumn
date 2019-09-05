@@ -68,7 +68,7 @@ body {
 
 .mid-autumn-body {
   position: fixed;
-  width: 100vw;
+  width: 15vw;
   height: 100vh;
   background: linear-gradient(150deg, #041039, #418cbc, #fff);
 }

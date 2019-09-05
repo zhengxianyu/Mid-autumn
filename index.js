@@ -33,13 +33,13 @@ $(function() {
     document.getElementById('midAutumn').appendChild(kongMing);
   }
 
-  for (let index = 0; index < 1000; index++) {
+  for (let index = 0; index < 100; index++) {
     let star = document.createElement('div');
     star.className = 'star';
     star.style = 'left: ' +
-      numberRandom(100, 0) +
+      numberRandom(15, 0) +
     'vw; top: ' +
-      numberRandom(40, 0) +
+      numberRandom(45, 0) +
     'vh;';
 
     document.getElementById('sky').appendChild(star);
