@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <title>Mid-Autumn</title>
+    <link rel="stylesheet" href="index.css" type="text/css"></link>
+  </head>
+  <body>
+    <div class="mid-autumn-body" id="midAutumn">
+      <div class="sky" id="sky">
+        <div class="moon">
+          <div class="moon-shadow" id="moonShadow"></div>
+          <svg width="0" height="0">
+            <filter id="filter">
+              <feTurbulence type="fractalNoise" baseFrequency="0.034" numOctaves="4" seed="0" />
+              <feDisplacementMap in="SourceGraphic" scale="150" />
+            </filter>
+          </svg>
+        </div>
+      </div>
+      <div class="kongming-latern">
+        <div class="latern-left"></div>
+        <div class="latern-right"></div>
+        <div class="latern-bottom"></div>
+      </div>
+      <div class="kongming-latern">
+        <div class="latern-left"></div>
+        <div class="latern-right"></div>
+        <div class="latern-bottom"></div>
+      </div>
+      <div class="kongming-latern">
+        <div class="latern-left"></div>
+        <div class="latern-right"></div>
+        <div class="latern-bottom"></div>
+      </div>
+      <div class="kongming-latern-litle">
+        <div class="latern-left"></div>
+        <div class="latern-right"></div>
+        <div class="latern-bottom"></div>
+      </div>
+    </div>
+    <script src='index.js'></script>
+  </body>
+</html>
