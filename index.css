@@ -80,6 +80,8 @@ body {
   height: 10vw;
   background: radial-gradient(#fffee8, #fdfe8e, #faf193);
   box-shadow: 0 0 40px 20px #fff;
+  left: 1vw;
+  top: 1vw;
 }
 
 .moon-shadow {
