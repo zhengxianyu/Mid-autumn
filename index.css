@@ -59,6 +59,12 @@ body {
 	}
 }
 
+@keyframes Wink {
+  100% {
+    width: 0;
+	}
+}
+
 .mid-autumn-body {
   position: fixed;
   width: 15vw;
