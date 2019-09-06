@@ -73,7 +73,7 @@ $(function() {
   }
 
   // 下屋檐
-  for (let index = 0; index < 25; index++) {
+  for (let index = 0; index < 18; index++) {
     let tile = document.createElement('div');
     tile.className = 'tile';
     tile.style = 'right: ' +
