@@ -5,7 +5,7 @@ $(function() {
   }
 
   // 孔明灯
-  for (let index = 0; index < 10; index++) {
+  for (let index = 0; index < 20; index++) {
     let left = document.createElement('div');
     left.className = 'latern-left';
 
@@ -19,9 +19,9 @@ $(function() {
     kongMing.className = 'kongming-latern-litle';
     kongMing.style =
       'left:' +
-        numberRandom(15, 0) +
+        numberRandom(100, 0) +
       'vw; bottom:' +
-        numberRandom(0, -15) +
+        numberRandom(-4, -15) +
       'vw; animation: FlyFour ' +
         numberRandom(20, 15) +
       's linear infinite; animation-delay:' +
@@ -35,11 +35,11 @@ $(function() {
   }
 
   // 星星
-  for (let index = 0; index < 60; index++) {
+  for (let index = 0; index < 200; index++) {
     let star = document.createElement('div');
     star.className = 'star';
     star.style = 'left: ' +
-      numberRandom(15, 0) +
+      numberRandom(100, 0) +
     'vw; top: ' +
       numberRandom(45, 0) +
     'vh; animation-delay: ' +
