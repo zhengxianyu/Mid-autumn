@@ -69,7 +69,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(150deg, #041039, #418cbc, #fff);
+  background: linear-gradient(-177deg, #041039, #418cbc, #fff);
   overflow: hidden;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .kongming-latern, .kongming-latern-litle {
   position: absolute;
-  height: 5vw;
+  height: 5.1vw;
   width: 3.5vw;
   bottom: -8vw;
   background: linear-gradient(#92090e, #ea3d2d, #fbf885);
