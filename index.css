@@ -69,7 +69,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(-177deg, #041039, #418cbc, #fff);
+  background: linear-gradient(-180deg, #041039, #418cbc, #fff);
   overflow: hidden;
 }
 
